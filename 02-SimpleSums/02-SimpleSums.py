@@ -2,7 +2,7 @@
 first = 8
 second = 10
 
-# Declare a variable and peform arithmetic operation
+# Declare a variable and perform arithmetic operation
 sum = first + second
 
 # Print result of sum
