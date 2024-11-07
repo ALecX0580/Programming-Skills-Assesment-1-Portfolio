@@ -1,6 +1,8 @@
+# Calculates the sum of two integers
+
 # Declare two variables and initialize them with the integer values 8 and 10
-first = 8
-second = 10
+first = 8   # First Integer 
+second = 10 # Second Integer
 
 # Declare a variable and perform arithmetic operation
 sum = first + second
