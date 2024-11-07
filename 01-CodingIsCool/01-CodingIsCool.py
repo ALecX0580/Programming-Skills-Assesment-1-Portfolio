@@ -1,22 +1,11 @@
-<<<<<<< HEAD
-# Joins strings together to make a phrase
+# Calculates the sum of two integers
 
-# Assign string to each variable using sentence "Coding is Cool"
-word1 = "Coding "   # First word of phrase
-word2 = "is "       # Second word of phrase
-word3 = "Cool"      # Third word of phrase
+# Declare two variables and initialize them with the integer values 8 and 10
+first = 8   # First Integer 
+second = 10 # Second Integer
 
-# Use string concatenation to combine the variables and print the phrase
-# Concatenate word1, word2, and word3 to output "Coding is Cool"
-=======
-# Joins strings together to make a phrase
+# Declare a variable and perform arithmetic operation
+sum = first + second
 
-# Assign string to each variable using sentence "Coding is Cool"
-word1 = "Coding "   # First word of phrase
-word2 = "is "       # Second word of phrase
-word3 = "Cool"      # Third word of phrase
-
-# Use string concatenation to combine the variables and print the phrase
-# Concatenate word1, word2, and word3 to output "Coding is Cool"
->>>>>>> 4ba6dd443c8102920048d93b8e8a55484c954416
-print(word1 + word2 + word3)
+# Print result of sum
+print("The sum of", first, "and", second, "is:", sum) 
