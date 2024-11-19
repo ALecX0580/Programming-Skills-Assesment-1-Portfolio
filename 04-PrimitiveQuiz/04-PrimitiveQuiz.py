@@ -13,11 +13,11 @@ questions = [
     "What is the capital of Austria?",
     "What is the capital of Switzerland?"
     ]
-# Answerts correlating to questions
+# Answers correlating to questions
 answers = ["Berlin", "Paris", "Rome", "Madrid", "Ankara",
     "Warsaw", "Oslo", "Amsterdam", "Vienna", "Bern"]
 
-# Intialize score counter
+# Initialize score counter
 score = 0
 
 for i in range(len(questions)):
