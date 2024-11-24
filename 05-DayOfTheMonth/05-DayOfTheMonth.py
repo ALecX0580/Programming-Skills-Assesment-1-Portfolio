@@ -21,7 +21,7 @@ months = {
     12: 31  #December
 }
 
-# A list of month names for refrence, where index correlates to given number by user
+# A list of month names for reference, where index correlates to given number by user
 month_names = ["January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",] 
 
