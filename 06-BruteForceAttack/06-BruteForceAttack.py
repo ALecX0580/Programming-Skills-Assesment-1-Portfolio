@@ -7,7 +7,6 @@ attempt = 0     # The initial amount of attempts
 # Loop until maximum number of attempts is reached
 while attempt < max_attempts:
         password = (input("Enter the password: ")) # Ask user for password input
-        attempt = attempt + 1 # Increase attempt count
 
         #Check if entered password matches correct password
         if password == correct_password:
@@ -15,8 +14,9 @@ while attempt < max_attempts:
             break # Exit inner loop if password is correct
         else:
             # Evaluates remaining attempts
+            attempt = attempt + 1 # Increase attempt count
             remaining_attempt = max_attempts - attempt
             if remaining_attempt > 0:
                 print(f"Incorrect password, you have {remaining_attempt} attempts left")
             else:
-                print("Maximum attempts reached, authorities have been alerted")
+                print("Maximum attempts reached, authorities have been alerted") 
