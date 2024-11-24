@@ -10,4 +10,4 @@ corrected_search = search.capitalize() # Capitalize first letter of input
 if corrected_search in names:
     print(f"Name is found: {corrected_search}")
 else:
-    print("Name is not founds")
+    print("Name is not found")
